@@ -523,7 +523,8 @@ h1, h2, h3, h4, h5,
 				bottom: 0;
 				left: 0;
 				right: 0;
-				@include gradient-background();
+				background-color: rgba(255, 255, 255, 0.5);
+				//@include gradient-background();//
 				opacity: .5;
 			}
 			.slider-text {
